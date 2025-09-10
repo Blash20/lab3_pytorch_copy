@@ -1190,6 +1190,7 @@ def adaptive_max_pool1d_with_indices(
     See :class:`~torch.nn.AdaptiveMaxPool1d` for details and output shape.
 
     Args:
+        input: input tensor
         output_size: the target output size (single integer)
         return_indices: whether to return pooling indices. Default: ``False``
     """
